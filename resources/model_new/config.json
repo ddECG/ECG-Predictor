@@ -1,0 +1,38 @@
+{
+	"function": "train",
+	"data": "data/ptbxl/data.hdf5",
+	"metadata": "data/metadata_ptb.csv",
+	"model": "model_new",
+	"tune": false,
+	"modify": false,
+	"tune_model": null,
+	"id_col": "ecg_id",
+	"age_col": "age",
+	"traces_dset": "tracings",
+	"ids_dset": "exam_id",
+	"replace": false,
+	"validation_percentage": 0.2,
+	"batch_size": 32,
+	"seq_length": 4096,
+	"net_seq_length": [
+		4096,
+		1024,
+		256,
+		64,
+		16
+	],
+	"net_filter_size": [
+		64,
+		128,
+		196,
+		256,
+		320
+	],
+	"kernel_size": 17,
+	"dropout_rate": 0.8,
+	"lr": 0.001,
+	"patience": 7,
+	"lr_factor": 0.1,
+	"min_lr": 1e-07,
+	"epochs": 70
+}
