@@ -1,3 +1,34 @@
+# Ignore directories
+__pycache__
+build
+.vscode
+testing
+Icon
+dist
+pyinstaller
+__build__
+old_versions
+.qt_for_python
+.vscode
+
+# Ignore directory but not outside (you need a gitkeep file)
+resources/data*
+!resources/data/.gitkeep
+
+# Ignore files
+config.ini
+testing.py
+testing*
+build.sh
+.DS_Store
+MyApplication.spec
+main.spec
+export.csv
+build.sh
+main.spec
+ui_mainwindow.py
+resources/settings/config.ini
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
