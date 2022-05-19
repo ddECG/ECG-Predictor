@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="Logo">
+    <file>Asset 1.png</file>
+    <file>Asset 1.svg</file>
+    <file>icon.ico</file>
+    <file>logo.png</file>
+    <file>mri.png</file>
+  </qresource>
+</RCC>
