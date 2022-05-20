@@ -1,4 +1,4 @@
-# ECG predictor <img src="Application/resources/graphics/Asset 1.png" align="right" width="120" />
+# ECG predictor <img src="resources/graphics/Asset 1.png" align="right" width="120" />
 
 # ECG predictor
 ## Overview
